@@ -1,0 +1,96 @@
+{
+  "mod_elements": [
+    {
+      "name": "ProcedureOfStone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "procedure_of_stone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/farmtwowin/procedures/ProcedureOfStoneProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ProcedureOfWood",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "procedure_of_wood",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/farmtwowin/procedures/ProcedureOfWoodProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Count_stone_mined",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Count_log_mined",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/farmtwowin/network/FarmtwowinModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/farmtwowin/FarmtwowinMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "farmtwowin",
+    "modName": "FarmTwoWin",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.farmtwowin"
+  },
+  "mcreatorVersion": 202500345720
+}
